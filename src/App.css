@@ -154,3 +154,43 @@ body{
       margin-top: 0;
     }
   }
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.Container{
+    display: flex;
+    margin: 0 auto;
+    width: 90vw;
+}
+.row{
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.SelectContainer{
+    width: 100vw;
+    height: 200px;
+    display: block;    
+    background-image: url("../assets/React-Hooks.png");
+    background-size: contain;
+}
+.ButtonSelect{
+    background-color: #1DA6CC;
+    width: auto;
+    float: left;
+    margin: 150px 10px 0 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    vertical-align: middle;
+    vertical-align: -moz-middle-with-baseline;
+    text-align: center;
+}
+
+.generalText{
+    text-align: left;
+}
